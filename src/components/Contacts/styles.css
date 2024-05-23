@@ -1,0 +1,69 @@
+.content-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.content-title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.content-title > h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.content-title > p{
+    font-size: 18px;
+    font-weight: 400;
+    width:640px ;
+}
+
+.box-message{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.box-one{
+    display: flex;
+    flex-direction: column;
+}
+
+.box-one > input{
+    width: 640px;
+    height: 48px;
+    border: 1px solid black;
+}
+
+.box-two > input{
+    width: 640px;
+    height: 48px;
+    border: 1px solid black;
+}
+
+
+.box-three > input{
+    width: 640px;
+    height: 212px;
+    border: 1px solid black;
+}
+
+.terms{
+    display: flex;
+    margin-top: 24px;
+}
+
+.content-container> button{
+    background-color: black;
+    color: white;
+    width:99px ;
+    height: 48px;
+    margin-top: 24px;
+}
+
