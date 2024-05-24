@@ -1,12 +1,11 @@
 import "./App.css"
 import TeamComposition from "./components/Team";
-import ContactsComposition from "./components/Contacts";
 
 
 function App() {
   return (
     <body>
-     <ContactsComposition/>
+     <TeamComposition/>
     </body>
   );
 }
