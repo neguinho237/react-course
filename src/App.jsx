@@ -1,12 +1,13 @@
 import "./App.css"
+import Square from "./styles/styled-component/components/Square";
 // import Layout from "./components/Layout";
-import TeamComposition from "./components/Team";
+
 
 
 function App() {
   return (
     <body>
-     <TeamComposition />
+     <Square colorC = "orange" borderStyle = "black"/>
     </body>
   );
 }
