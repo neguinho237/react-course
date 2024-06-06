@@ -1,15 +1,13 @@
 import "./App.css"
-import Square from "./styles/styled-component/components/Square";
-// import Layout from "./components/Layout";
-
-
+import Accordion from "./hooks/components/Accordion"
 
 function App() {
   return (
     <body>
-     <Square colorC = "orange" borderStyle = "black"/>
+      <Accordion />
     </body>
   );
 }
 
 export default App;
+
