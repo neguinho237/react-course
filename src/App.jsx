@@ -1,10 +1,12 @@
 import "./App.css"
-import Accordion from "./hooks/components/Accordion"
+import Navbar from "./hooks/components/Navbar";
 
 function App() {
+
+
   return (
     <body>
-      <Accordion />
+     <Navbar/>
     </body>
   );
 }

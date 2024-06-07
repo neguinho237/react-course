@@ -6,7 +6,7 @@
     border: none;
 }
 
-body {
+/* body {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -14,7 +14,7 @@ body {
   width: 100%;
   background-color: rgb(255, 255, 255);
   gap: 40px;  
-}
+} */
 
 .card {
     display: flex;
