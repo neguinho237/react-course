@@ -10,6 +10,10 @@
     font-size: 10px;
 }
 
+.title{
+    margin-top: 23px;
+}
+
 .main{
     width: 480px;
     height: 709px;
@@ -24,6 +28,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 48px;
+    font-size: 18px;
+    font-weight: 00;
 }
 
 .text>p{
@@ -33,24 +40,47 @@
 
 .inputs{
     width: 384px;
-    border: 1px solid green;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    margin-top: 32px;
 }
 
 .inputOne{
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
+    margin-bottom: 24px;
+}
+
+.inputOne > input{
+    border: 1px solid black;
+    width: 384px;
+    height: 48px;
 }
 
 .inputwo{
     display: flex;
     flex-direction: column;
+    
+}
+
+.inputTwo > input{
+    border: 1px solid black;
+    width: 384px;
+    height: 48px;
+  
 }
 
 .inputThree{
     display: flex;
     flex-direction: column;
+    margin-top: 24px;
+
+}
+
+.inputThree > input{
+    border: 1px solid black;
+    width: 384px;
+    height: 48px;
 }

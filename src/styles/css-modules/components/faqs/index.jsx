@@ -1,5 +1,4 @@
 import styles from "./style.module.css"
-
 export default function Faqs (){
     return(
         <div className={styles.container}>

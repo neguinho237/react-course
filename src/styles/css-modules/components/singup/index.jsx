@@ -16,14 +16,17 @@ export default function SingUp (){
                 </div>
                 
                 <div className={styles.inputs}>
+                        
                         <div className={styles.inputOne}>
                         <label htmlFor="name">Name</label>
                         <input type="text" id="name" Name = "name" />
                         </div>
-                        <div>{styles.inputwo}
+                       
+                        <div className= {styles.inputTwo}>
                         <label htmlFor="email">Email</label>
                         <input type="text" id="email" Email = "email" />
                         </div>
+                       
                         <div className={styles.inputThree}>
                         <label for="pwd">Password:</label>
                         <input type="password" id="pwd" name="pwd"></input>

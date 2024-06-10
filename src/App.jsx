@@ -1,12 +1,11 @@
 import "./App.css"
-import Navbar from "./hooks/components/Navbar";
-
+import SingUp  from "./styles/css-modules/components/singup"
 function App() {
 
 
   return (
     <body>
-     <Navbar/>
+      <SingUp/>
     </body>
   );
 }
