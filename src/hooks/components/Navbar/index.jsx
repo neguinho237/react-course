@@ -1,10 +1,16 @@
 import { useState } from "react"
 import * as S from "./style"
 import DropdownMenu from "../DropdownMenu" 
+import {Link} from "react-router-dom";
 
   export default function Navbar (){
     
     const [open, setOpen] = useState(false)
+
+     // Arrow function
+     const handleMenu = () => {
+        return setOpen(!open)
+      }
 
     const ListPages = [
         {
@@ -29,10 +35,12 @@ import DropdownMenu from "../DropdownMenu"
         <S.Container>
             <S.Logo>Logo</S.Logo>
             <S.Nav>
-                <S.Link>link one</S.Link>
+                <S.Link>
+                    <Link to = "/teams"> Teams</Link>
+                </S.Link>
                 <S.Link>link two</S.Link>
                 <S.Link>link three</S.Link>
-                <S.Link>link four</S.Link>
+                <S.Link onClick={handleMenu}>Link four</S.Link>
                 {
                     open && <DropdownMenu pages = {ListPages}/>
                 }

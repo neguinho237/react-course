@@ -1,11 +1,23 @@
 import "./App.css"
-import SingUp  from "./styles/css-modules/components/singup"
-function App() {
+import React from "react";
+import { Route, Routes } from "react-router-dom";
+import Navbar from "./hooks/components/Navbar"
+import TeamComposition from "./components/Team"
 
+function Home () {
+  return(
+    <Navbar/>
+  )
+}
+
+function App() {
 
   return (
     <body>
-      <SingUp/>
+      <Routes>
+        <Route path="/" Component ={Home} />
+        <Route path="/teams" Component={TeamComposition}/>
+      </Routes>
     </body>
   );
 }
