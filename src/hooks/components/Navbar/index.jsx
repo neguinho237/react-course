@@ -36,10 +36,14 @@ import {Link} from "react-router-dom";
             <S.Logo>Logo</S.Logo>
             <S.Nav>
                 <S.Link>
-                    <Link to = "/teams"> Teams</Link>
+                    <Link to = "/page-one"> Page One</Link>
                 </S.Link>
-                <S.Link>link two</S.Link>
-                <S.Link>link three</S.Link>
+                <S.Link>
+                    <Link to="/page-two">Page Two</Link>
+                </S.Link>
+                <S.Link>
+                    <Link to="/page-three">Page Three</Link>
+                </S.Link>
                 <S.Link onClick={handleMenu}>Link four</S.Link>
                 {
                     open && <DropdownMenu pages = {ListPages}/>
