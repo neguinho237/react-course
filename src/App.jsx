@@ -6,13 +6,16 @@ import PageOne from "./pages/PageOne";
 import PageTwo from "./pages/PageTwo";
 import PageThree from "./pages/PageThree";
 import Navbar from "./hooks/components/Navbar"
+import GetCep from "./request";
+import GetPokemon from "./api/api-pokemon";
+
 
 
 function App() {
   return (
     <body>
       <Routes>
-        <Route path="/" Component={Home} />
+        <Route path="/" Component={GetPokemon} />
         <Route path="/navbar" Component={Navbar} />
         <Route path="/page-one" Component={PageOne} />
         <Route path="/page-two" Component={PageTwo} />
