@@ -3,15 +3,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui, -apple-system, BlankMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .header{
-    font-size: 10px;
+    font-size: 24px;
 }
 
 .title{
     margin-top: 23px;
+    font-weight: 600;
 }
 
 .main{
@@ -29,8 +30,8 @@
     justify-content: center;
     align-items: center;
     margin-top: 48px;
-    font-size: 18px;
-    font-weight: 00;
+    font-size: 48px;
+    font-weight: 700;
 }
 
 .text>p{
@@ -38,12 +39,11 @@
    margin-top: 24px;
 }
 
-.inputs{
-    width: 384px;
+.AllInputs{
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     margin-top: 32px;
 }
 
@@ -59,10 +59,18 @@
     height: 48px;
 }
 
+.inputOne > label{
+    margin-bottom: 8px;
+}
+
 .inputwo{
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: row-reverse;
+}
+
+.inputTwo> label{
+    display: flex;
+    margin-bottom: 8px;
 }
 
 .inputTwo > input{
@@ -84,3 +92,44 @@
     width: 384px;
     height: 48px;
 }
+
+.inputThree > label{
+    margin-bottom: 8px;
+}
+
+.buttonBlack{
+    width: 384px;
+    height: 48px;
+    color: white;
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.buttonGoogle{
+    width: 384px;
+    height: 48px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:15px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding-top: 24px;
+    margin-top: 16px;
+}
+
+.logIn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+}
+
