@@ -20,11 +20,14 @@
     "test": "jest",
     "eject": "react-scripts eject"
   },
-  "jest":{
-    "tranform":{
-      "^.+\\.jsx?$":"babel-jest"
+  "jest": {
+    "tranform": {
+      "^.+\\.jsx?$": "babel-jest"
     },
-    "moduleFileExtensions": ["js", "jsx"]
+    "moduleFileExtensions": [
+      "js",
+      "jsx"
+    ]
   },
   "eslintConfig": {
     "extends": [
