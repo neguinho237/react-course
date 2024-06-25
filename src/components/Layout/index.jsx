@@ -1,4 +1,4 @@
-import "./styles.css"
+import "."/styles.css
 
 import ChevronRight from "../../assets/images/svg/chevron-right.svg"
 import EmptyState from "../../assets/images/svg/empty-state.svg"

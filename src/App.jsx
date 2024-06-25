@@ -9,7 +9,7 @@ import Navbar from "./hooks/components/Navbar"
 import GetCep from "./request";
 import GetPokemon from "./api/api-pokemon";
 import SingUp from "./styles/css-modules/components/singup"
-
+import Cta from "./components/Cta";
 
 
 function App() {
@@ -23,7 +23,8 @@ function App() {
         <Route path="/page-three" Component={PageThree} />
       </Routes> */}
 
-      <SingUp/>
+      <Cta titulo =  "Medium length heading goes here" subTitulo = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique." 
+      button = "clique aqui" palavrinhas = "A vida é curta demais para não aproveita-la" />
     </body>
   );
 }
