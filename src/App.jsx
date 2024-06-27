@@ -24,7 +24,7 @@ function App() {
       </Routes> */}
 
       <Cta titulo =  "Medium length heading goes here" subTitulo = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique." 
-      button = "clique aqui" palavrinhas = "A vida é curta demais para não aproveita-la" />
+      button = "Cadastrar" palavrinhas = "A vida é curta demais para não aproveita-la" />
     </body>
   );
 }
