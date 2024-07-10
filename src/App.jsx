@@ -11,7 +11,8 @@ import GetPokemon from "./api/api-pokemon";
 import SingUp from "./styles/css-modules/components/singup"
 import Cta from "./components/Cta";
 import Footer from "./components/Footer";
-
+import Team from "./components/Team"
+import Pricing from "./components/Pricing";
 
 function App() {
   return (
@@ -26,8 +27,8 @@ function App() {
       {/* <Cta titulo =  "Medium length heading goes here" subTitulo = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique." 
       button = "Cadastrar" palavrinhas = "A vida é curta demais para não aproveita-la" /> */}
 
-      <Footer/>
-
+      {/* <Footer/> */}
+<Pricing/>
     </body>
   );
 }
