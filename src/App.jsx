@@ -32,6 +32,14 @@ function App() {
                text=" O Xbox Live Gold é um serviço de assinatura que permite jogar online com amigos e a comunidade."
                button="R$75/3m" 
                buttonTwo="R$34/1m"
+               basicPlan="Anual plan"
+               price="R$250"
+               textA="Multijogador avançado: Desfrute de partidas online com amigos e jogadores de todo o mundo."
+               textB="Jogos gratuitos com o Games with Gold: Receba dois jogos gratuitos todos os meses para Xbox One e Xbox Series X|S."
+               textC="Descontos exclusivos: Economize até 50% em jogos selecionados com ofertas exclusivas para assinantes."
+               textD="Catálogo de mais de 25 jogos de alta qualidade: Acesse uma variedade de títulos incríveis para Xbox Series X|S e Xbox One."
+               textE="Compartilhamento em familia: Compartilhe os benefícios da assinatura com outros membros da família no mesmo console "
+               buttonThree="Assinar"
                 />
     </body>
   );
