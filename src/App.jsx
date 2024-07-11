@@ -24,10 +24,15 @@ function App() {
         <Route path="/page-two" Component={PageTwo} />
         <Route path="/page-three" Component={PageThree} />
       </Routes> */}
-      { <Cta titulo =  "Há os mlk é liso" subTitulo = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique." 
-      button = "Cadastrar" palavrinhas = "A vida é curta demais para não aproveita-la" /> }
+      {/* { <Cta titulo =  "Há os mlk é liso" subTitulo = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."  */}
+      {/* // button = "Cadastrar" palavrinhas = "A vida é curta demais para não aproveita-la" /> } */}
 
-      {/* <Footer/> */}
+      <Pricing title="Xbox" 
+               subTitle="Assinatura Gold" 
+               text=" O Xbox Live Gold é um serviço de assinatura que permite jogar online com amigos e a comunidade."
+               button="R$75/3m" 
+               buttonTwo="R$34/1m"
+                />
     </body>
   );
 }
