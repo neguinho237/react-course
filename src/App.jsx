@@ -24,11 +24,10 @@ function App() {
         <Route path="/page-two" Component={PageTwo} />
         <Route path="/page-three" Component={PageThree} />
       </Routes> */}
-      {/* <Cta titulo =  "Medium length heading goes here" subTitulo = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique." 
-      button = "Cadastrar" palavrinhas = "A vida é curta demais para não aproveita-la" /> */}
+      { <Cta titulo =  "Há os mlk é liso" subTitulo = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique." 
+      button = "Cadastrar" palavrinhas = "A vida é curta demais para não aproveita-la" /> }
 
       {/* <Footer/> */}
-<Pricing/>
     </body>
   );
 }
